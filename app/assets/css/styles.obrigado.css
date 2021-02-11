@@ -1,0 +1,287 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+
+:root {
+    --primary: #000000;
+    --secondary: #191919;
+    --light: #f9f9f9;
+    --box-shadow: 0px 5px 15px #ababab;
+    --pink-1: #fe01bc;
+    --pink-2: #ff404c;
+    --red-1: #bc1a1e;
+    --red-2: #ef2b51;
+    --red-gradient: linear-gradient(to left, var(--red-1), var(--red-2));
+    --pink-gradient: linear-gradient(to left, var(--pink-1), var(--pink-2));
+  }
+
+body, html {
+    height: 100%;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 2em;
+    margin: 5% 0;
+}
+
+header{
+    padding: 3% 0;
+    background-image: linear-gradient(to right,#191919 ,#191919);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% auto;
+    min-height: 100%;
+}
+
+.header-pda{
+    padding: 4% 0;
+    background-image: url('../img/VetoresPaginadeObrigado/Background\ -\ Página\ de\ Obrigado.svg'), linear-gradient(to right, #ef2b51 , #bc1a1e);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% auto;
+    height: 300px;
+}
+
+header p{
+    color: #fff;
+}
+
+section{
+    padding: 2% 0;
+}
+
+h1, .subtitle, .subtitle .bold{
+    color: #fff;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.div-logo{
+    margin: 1% 0;
+}
+
+.logo-afiliart{
+    max-width: 300px;
+    margin: 0 3%;
+}
+
+.div-title{
+    padding: 2% 10% 0;
+}
+
+.subtitle{
+    font-size: 1.2em;
+}
+
+.cta{
+    margin: 5% 0;
+    text-align: center;
+}
+
+.btn-cta{
+    background-image: linear-gradient(to right, #00c6fb, #005bea);
+    padding: 4% 5%;
+    color: #fff;
+    font-size: 1.4em;
+    border-radius: 100px;
+    box-shadow: 0px 0px 25px #005bea;
+    transition: .5s;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+.btn-cta-red{
+    background-image: var(--red-gradient);
+    padding: 4% 5%;
+    color: #fff;
+    font-size: 1.4em;
+    border-radius: 100px;
+    box-shadow: 0px 0px 25px #bc1a1e;
+    transition: .5s;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+.btn-cta:hover{
+    background-color: #b4002a;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0px 0px 15px #005bea;
+}
+
+.btn-cta-outline{
+    background-color: #17ACE8;
+    padding: 1% 15%;
+    color: #fff;
+    font-size: 2em;
+    border: 0;
+    border-radius: 100px;
+    transition: .5s;
+}
+
+header .cta{
+    margin-top: 3%;
+}
+.step{
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    background-color: rgba(0,0,0, .1);
+    border: 5px solid rgba(255,255,255,.2);
+    border-radius: 5px;
+}
+
+.title-step{
+    font-size: 1.5em;
+}
+
+.title-desc{
+    font-size: 1.2em;
+}
+
+.btn-link, .btn-link:hover, .btn-link.focus, .btn-link:focus{
+    color: #2b2b2b;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+}
+
+footer{
+    padding: 5% 0 0;
+    background-color: #191919;
+}
+
+footer p{
+    color: #fff;
+    font-size: 0.7em;
+}
+
+footer i, header i{
+    color: #fff;
+    margin: 0 2%;
+}
+
+footer a:hover{
+    text-decoration: none;
+}
+
+footer img{
+    width: 40%;
+    margin-bottom: 2%;
+}
+
+.footer-content{
+    padding-bottom: 2%;
+}
+
+.email{
+    margin: 5%;
+    font-size: 1.4em;
+}
+.copyright{
+    padding: 2% 0;
+    background-color: #000;
+}
+
+
+.om-trigger-conversion{
+    display: none;
+}
+
+.card-img-top{
+    text-align: center;
+    margin: 2% 0;
+    width: 50%;
+}
+
+.ebook3{
+    img{
+        width: 50%;
+    }
+}
+
+a.cta2, button.cta2 {
+    background-image: var(--pink-gradient);
+    border-radius: 50px;
+    color: white !important;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: auto;
+    padding: 6% 20%;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .5s;
+    width: 100%;
+    }
+
+@media (max-width: 991px){
+    .btn-cta{
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 767px){
+    .btn-cta{
+        padding: 1% 10%;
+        font-size: 1.5em;
+    }
+
+    .div-title{
+        margin: 0 0 15% 0;
+    }
+}
+
+
+@media (max-width: 576px){
+
+    h1{
+        margin: 10% 0;
+    }
+
+
+    .logo-afiliart{
+        max-width: 200px;
+        margin: 0 2%;
+    }
+
+}
+
+.etapas {
+    width: 700px;
+    margin: 0 auto; }
+    .etapas .etapa {
+      width: 120px; }
+      .etapas .etapa h3 {
+        font-size: 20px;
+        margin-top: 20px;
+        font-style: italic; }
+      .etapas .etapa p {
+        font-weight: 300;
+        margin: 0; }
+  
+@media (max-width: 759px) {
+    .etapas {
+      width: auto; }
+      .etapas .etapa {
+        height: 90px;
+        width: auto; }
+        .etapas .etapa h3 {
+          margin-top: 20px;
+          font-style: italic;
+          text-align: left; }
+        .etapas .etapa p {
+          font-weight: 300;
+          text-align: left; } }
+  

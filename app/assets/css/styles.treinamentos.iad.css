@@ -1,0 +1,398 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+body, html {
+    height: 100%;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 2em;
+}
+
+.img-card{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #999;
+}
+
+header{
+    padding: 2% 0;
+    background-image: url('../img/cursos/iad/bkg1-1.svg'), linear-gradient(to right, #ab0373 , #290a59);
+    background-repeat: no-repeat;
+    background-position: 100% auto;
+}
+
+section{
+    padding: 3% 0;
+}
+
+h1, .subtitle, .subtitle .bold{
+    color: #fff;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.div-logo{
+    margin: 1% 0;
+}
+
+.logo-afiliart{
+    max-width: 300px;
+    margin: 0 3%;
+}
+
+.video{
+    margin: 2% 0;
+}
+
+.div-title{
+    padding: 2% 10% 0;
+}
+
+.subtitle{
+    font-size: 1.5em;
+}
+
+.cta{
+    margin: 5% 0;
+    text-align: center;
+}
+
+.btn-cta{
+    background-color: #35bdad;
+    padding: 1% 15%;
+    color: #fff;
+    font-size: 2em;
+    box-shadow: 15px 15px 0px #290a59;
+    transition: .5s;
+}
+
+.btn-cta:hover{
+    color: #fff;
+    box-shadow: 1px 1px 1px #290a59;
+    text-decoration: none;
+}
+
+
+.btn-cta-outline{
+    background-color: #17ACE8;
+    padding: 1% 15%;
+    color: #fff;
+    font-size: 2em;
+    border: 0;
+    border-radius: 100px;
+    transition: .5s;
+}
+
+header .cta{
+    margin-top: 3%;
+}
+
+.btn-link, .btn-link:hover, .btn-link.focus, .btn-link:focus{
+    color: #2b2b2b;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+}
+
+.section-2{
+    padding: 0;
+    text-align: justify;
+}
+
+.col-descricao{
+    padding: 2% 5% 2% 15%;
+    text-align: left;
+    background-color: #201a28;
+}
+
+.p-title{
+    font-size: 1.3em;
+    color: #35bdad;
+}
+
+.col-equipe{
+    padding: 2% 5% 0;
+    background-position: top right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #31293e;
+}
+
+.section-3{
+    padding: 5% 0 0;
+    background-image: url('../img/cursos/iad/bkg1-1.svg'), linear-gradient(to right, #ab0373 , #290a59);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.section-3 .row{
+    margin-top: 5%;
+}
+
+.section-3 h2, .section-3 p, .section-3 i{
+    color: #fff;
+}
+
+.modulo-title{
+    font-size: 1.3em;
+}
+
+
+.section-11{
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.img-certificado{
+    width: 80%;
+    margin: 5% 0;
+}
+
+.section-4{
+    padding: 0;
+    text-align: justify;
+    background-color: #31293e;
+}
+
+.flipY {
+        -moz-transform: scaleY(-1);
+        -o-transform: scaleY(-1);
+        -webkit-transform: scaleY(-1);
+        transform: scaleY(-1);
+}
+
+.img-instrutor{
+    width: 50%;
+    margin: 5% 0;
+    border: 5px solid #ab0373;
+    box-shadow: -15px -15px 0px #35bdad;
+}
+
+.section-5{
+    background-color: #201a28;
+    padding-top: 0;
+    text-align: justify;
+}
+
+.div-copy-cta{
+    padding: 2% 10% 3%;
+}
+
+.copy-cta{
+    font-size: 1.5em;
+}
+
+.social{
+    background: #2c93ea;
+    background-image: url('../img/bkg-circle.png');
+    background-image: url('../img/cursos/iad/bkg-circle.png'), radial-gradient(circle, #ab0373 , #290a59);
+    background-position: center;
+    background-size: 50%, auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 3% 0;
+}
+
+.social-logo{
+    width: 50%;
+}
+
+.section-8 .content{
+    margin-top: 5%;
+}
+
+.img-equipe{
+    width: 60%;
+    margin: 0 0 7% 0;
+    border: 5px solid #35bdad;
+    box-shadow: 15px 15px 0px #ab0373;
+}
+
+.section-cta{
+    background-color: #ab0373;
+}
+
+.modal-content{
+    background-color: #31293e;
+    border: 15px solid #201a28;
+    border: 15px solid #35bdad;
+    border-radius: 0;
+}
+
+.modal-content input, .modal-content input:focus{
+    margin-bottom: 1%;
+    border: 0;
+    background-color: #201a28;
+    color: #fff;
+    border-radius: 0;
+}
+
+.privacidade{
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.btn-form{
+    border: 0;
+    width: 80%;
+    padding: 3% 0;
+    margin: 2% 0;
+    background-color: #ab0373;
+    color: #fff;
+    font-size: 2em;
+}
+.flex{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader {
+    text-align: center;
+    border: 5px solid #ab0373;
+    border-radius: 50%;
+    border-top: 5px solid #ccc;
+    width: 30px;
+    height: 30px;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+    display: none;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+footer{
+    padding: 5% 0 0;
+    background-color: #31293e;
+}
+
+footer p{
+    color: #fff;
+    font-size: 0.7em;
+}
+
+footer i{
+    color: #fff;
+    margin: 0 2%;
+}
+
+footer a:hover{
+    text-decoration: none;
+}
+
+footer img{
+    width: 40%;
+    margin-bottom: 2%;
+}
+
+.footer-content{
+    padding-bottom: 2%;
+}
+
+.email{
+    margin: 5%;
+    font-size: 1.4em;
+}
+.copyright{
+    padding: 2% 0;
+    background-color: #201a28;
+}
+
+@media (max-width: 991px){
+    .btn-cta{
+        font-size: 1.5em;
+    }
+
+    .social{
+        background-size: 70%, auto;
+        background-position: bottom;
+        padding: 5% 0;
+    }
+
+    .social-logo{
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px){
+    .btn-cta{
+        padding: 1% 10%;
+        font-size: 1.5em;
+    }
+    .section-4, .section-5, .col-descricao{
+        text-align: center;
+    }
+
+    .col-descricao{
+        padding: 5%;
+    }
+
+    .col-equipe{
+        text-align: center;
+        padding: 5%;
+    }
+
+    .social{
+        background-size: 80%, auto;
+        background-attachment: scroll;
+        background-position: center;
+        padding: 7% 0;
+
+    }
+
+    .social-logo{
+            width: 50%;
+    }
+}
+
+
+@media (max-width: 576px){
+
+    h1{
+        margin: 10% 0;
+    }
+    .logo-afiliart{
+        max-width: 150px;
+        margin: 0 2%;
+    }
+
+    .btn-form{
+        font-size: 1.5em;
+    }
+
+    .social{
+        min-height: 80px;
+        background-size: 100%, auto;
+    }
+    .social-logo{
+            width: 50%;
+    }
+
+
+}

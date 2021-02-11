@@ -1,0 +1,535 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+body, html {
+    height: 100%;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+}
+
+.img-card{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #999;
+}
+
+header{
+    padding: 2% 0;
+    background-image: url('../img/cursos/iad/bkg1-1.svg'), linear-gradient(to right, #ab0373 , #290a59);
+    background-repeat: no-repeat;
+    background-position: 100% auto;
+}
+
+section{
+    padding: 3% 0;
+}
+
+h1, .slogan, .subtitle, .subtitle .bold{
+    color: #fff;
+}
+
+h3{
+    font-size: 1.2em;
+}
+
+.font-h4{
+    font-size: 1.4em;
+}
+
+.navbar{
+    padding: 0 0 2%;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.div-logo{
+    margin: 1% 0;
+}
+
+.logo-afiliart{
+    max-width: 300px;
+    margin: 0 3%;
+}
+
+.slogan{
+    font-size: 2em;
+}
+
+.video{
+    margin: 2% 0;
+}
+
+.div-subtitle{
+    padding: 0 10%;
+}
+
+.subtitle{
+    font-size: 1.2em;
+}
+
+.div-especial .div-subtitle{
+    padding: 0 30%;
+}
+
+.assista-video-1{
+    width: 150%;
+    opacity: .6;
+}
+
+.cta{
+    margin: 5% 0;
+}
+
+.btn-cta{
+    background-color: #35bdad;
+    padding: 1% 15%;
+    color: #fff;
+    font-size: 2em;
+    box-shadow: 15px 15px 0px #290a59;
+    transition: .5s;
+}
+
+.btn-cta:hover{
+    color: #fff;
+    box-shadow: 1px 1px 1px #290a59;
+    text-decoration: none;
+}
+
+.btn-cta-outline{
+    background-color: #17ACE8;
+    padding: 1% 15%;
+    color: #fff;
+    font-size: 2em;
+    border: 0;
+    border-radius: 100px;
+    transition: .5s;
+}
+
+.btn-cta-outline:hover{
+    background-color: #108abb;
+    color: #fff;
+    text-decoration: none;
+}
+
+.price{
+    font-size: 2em;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+header .cta{
+    margin-top: 3%;
+}
+
+.section-2{
+    background-color: #201a28;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    padding-top: 5%;
+}
+
+.icon{
+    width: 30%;
+    /* box-shadow: -15px -15px 0px #35bdad; */
+    /* filter: drop-shadow(4px 4px 0px #35bdad); */
+}
+
+.section-2 h4{
+    font-size: 1.2em;
+}
+.section-2 .content{
+    margin-top: 5%;
+}
+
+.div-especial{
+    background-color: #ab0373;
+    padding: 3%;
+}
+
+.div-especial h2{
+    color: #fff;
+}
+
+.icon-section-2{
+    margin: 5% 0;
+    width: 40%;
+}
+
+.img-dash{
+    width: 80%;
+    border: 5px solid #ab0373;
+    box-shadow: -15px -15px 0px #35bdad;
+}
+
+.col-content{
+    margin: 2% 0;
+}
+
+.section-3{
+    background-image: url('../img/cursos/iad/bkg1-1.svg'), linear-gradient(to right, #ab0373 , #290a59);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.section-3 h2,.section-3 h4{
+    color: #fff;
+    margin:0 0 4% 0;
+}
+
+.section-3 .content{
+    margin-top: 5%;
+}
+
+.section-3 .cta{
+    margin-bottom: 2%;
+}
+
+.section-4{
+    background-color: #31293e;
+}
+
+.section-4 .content, .section-5 .content{
+    margin-top: 5%;
+}
+
+.div-azul{
+    background-color: #ab0373;
+}
+
+.div-azul h3, .div-azul p{
+    color: #fff;
+}
+
+.section-5{
+    background-size: 100% auto;
+    background-image: url('../img/cursos/iad/bkg1-1.svg'), linear-gradient(to right, #ab0373 , #290a59);
+}
+.col-section-5{
+    margin: 5% 0;
+}
+
+.col-border-right{
+    border-right: 2px solid #e5e5e5;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.card-modulos{
+    padding: 5%;
+    background-color: #31293e;
+    box-shadow: 15px 15px 0px #290a59;
+    height: 100%;
+}
+
+.card-modulos h5{
+    font-size: 1.2em;
+}
+
+.section-5 .card-modulos hr{
+    border: 2px solid #35bdad;
+}
+
+
+.card, .card-header{
+    background-color: rgba(0,0,0,0);
+    border: 0;
+}
+
+.line-break{
+    display: none;
+}
+
+.btn-link, .btn-link:hover, .btn-link.focus, .btn-link:focus{
+    color: #2b2b2b;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+}
+
+.img-instrutor{
+    width: 50%;
+    margin: 5% 0;
+    border: 5px solid #ab0373;
+    box-shadow: -15px -15px 0px #35bdad;
+}
+
+.img-certificado{
+    width: 80%;
+    margin: 5% 0;
+    border: 5px solid #ab0373;
+    box-shadow: 15px -15px 0px #35bdad;
+}
+
+.img-testmony{
+    margin: 0 0 4% 0;
+    width: 100%;
+    box-shadow: 5px 5px 1px #35bdad;
+}
+
+
+.duvida{
+    margin-top: 10%;
+}
+
+
+.section-6{
+    background-color: #31293e;
+    padding: 5% 0;
+}
+
+.icon-bonus{
+    width: 50%;
+    margin: 5% 0;
+}
+
+.section-6 .content{
+    margin: 5% 0 0;
+}
+
+.section-7{
+    background-color: #201a28;
+    padding: 0;
+}
+
+footer{
+    padding: 5% 0 0;
+    background-color: #31293e;
+}
+
+footer p{
+    color: #fff;
+    font-size: 0.7em;
+}
+
+footer i{
+    color: #fff;
+    margin: 0 2%;
+}
+
+footer a:hover{
+    text-decoration: none;
+}
+
+footer img{
+    width: 40%;
+    margin-bottom: 2%;
+}
+
+.footer-content{
+    padding-bottom: 2%;
+}
+
+.email{
+    margin: 5%;
+    font-size: 1.4em;
+}
+
+.copyright{
+    padding: 2% 0;
+    background-color: #201a28;
+}
+
+
+.social{
+    background: #2c93ea;
+    background-image: url('../img/cursos/iad/bkg-circle.png');
+    background-image: url('../img/cursos/iad/bkg-circle.png'), radial-gradient(circle, #ab0373 , #290a59);
+    background-position: center;
+    background-size: 50%, auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 3% 0;
+}
+
+.social-logo{
+        width: 8%;
+}
+
+.section-8{
+    background-color: #31293e;
+    padding-bottom: 0;
+}
+
+.section-8 .content{
+    margin-top: 5%;
+}
+
+.img-equipe{
+    width: 60%;
+    margin: 0 0 7% 0;
+    border: 5px solid #35bdad;
+    box-shadow: 15px 15px 0px #ab0373;
+}
+
+.section-9{
+    background-color: #201a28;
+}
+
+.section-9 .content{
+    margin-top: 2%;
+}
+
+.section-11{
+    padding: 0 0 2%;
+    background-color: #31293e;
+}
+
+.flip-x{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.section-12{
+    background-color: #201a28;
+}
+
+.section-13{
+    text-align: left;
+    background-color: #201a28;
+
+}
+
+.section-13 a{
+    color: #fff;
+}
+
+.card-header .btn:hover{
+    border-left: 3px solid #35bdad;
+    border-radius: 0;
+}
+
+.title-faq{
+    white-space:normal;
+}
+
+.card-modulos-body i{
+    font-size: 1.5em;
+    margin-right: 5%;
+    color: #35bdad;
+}
+
+.card-modulos-total hr{
+    border: 2px solid #35bdad;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.total{
+    padding: 5% 0 0;
+    font-size: 2em;
+}
+
+p.total{
+    margin: 0;
+}
+
+.padding-0{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.content-white{
+    padding: 0 2% 1%;
+}
+.content-white p{
+    font-size: 1.2em;
+}
+
+.content-light{
+    padding: 5%;
+    background-color: #201a28;
+}
+
+.section-10{
+    background-image: url('../img/cursos/iad/bkg1-1.svg'), linear-gradient(to right, #ab0373 , #290a59);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-10 .content{
+    margin: 2% 0;
+}
+
+.section-14{
+    background-color: #31293e;
+    padding-bottom: 0;
+}
+
+@media (max-width: 991px){
+    .btn-cta{
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 767px){
+
+    .assista-video-1{
+        display: none;
+    }
+
+    .col-border-right{
+        border: 0;
+    }
+
+    .align-left{
+        text-align: center;
+    }
+
+    .align-left ul li{
+        list-style-type: none;
+    }
+
+    ul{
+        padding-left: 0;
+    }
+
+    .btn-cta, .btn-cta-outline{
+        padding: 1% 10%;
+        font-size: 1.5em;
+    }
+
+    .counter-time{
+        font-size: 2em;
+        font-weight: bold;
+        color: #fff;
+    }
+}
+
+@media (max-width: 576px){
+
+    h1, .slogan{
+        margin: 10% 0;
+        font-size: 1.2em;
+    }
+    .logo-afiliart, .logo-inside{
+        /* max-width: 200px; */
+        max-width: 90%;
+        margin: 0 2%;
+    }
+    .line-break{
+        display: block;
+    }
+
+    .section-3, .section-5{
+        background:linear-gradient(to right, #ab0373 , #290a59);
+    }
+}
